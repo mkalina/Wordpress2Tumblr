@@ -38,7 +38,7 @@ Prereq: I'm assuming you can run php scripts from your local machine. Here's a [
 * Set the full path to the (first split up) WordPress Export file.
 * Set the tumblr name of the tumblelog you want to import into (eg. mygreattumblr.tumblr.com)
 
-## And Action!
+### And Action!
 
 1. Open `connect.php` on your webserver in your browser.
 2. This will direct you to Tumblr asking to authorize the application.
