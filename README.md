@@ -11,8 +11,6 @@ _Please note_
 
 ## How to run
 
-Prereq: I'm assuming you can run php scripts from your local machine. Here's a [helpful guide I found for enabling it on OS X](http://foundationphp.com/tutorials/php_leopard.php).
-
 ### Preparation
 
 1. Export (just) the posts from your WordPress blog. You will end up with a XML-File.
