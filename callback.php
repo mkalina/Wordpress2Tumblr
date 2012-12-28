@@ -87,7 +87,13 @@ if (isset($xml)) {
         $post_body = (string)$content->encoded;    
         $post_body = str_replace(""," ",$post_body);
         $wp =        $node->children("http://wordpress.org/export/1.2/");
-        $date =      $node->pubDate;
+
+	// Preserve date	
+        $date = (string) $wp->post_date_gmt;
+        
+        // Preserve slug
+        $slug = (string) $wp->post_name;
+
         echo $post_title . $date . "<br \>";
         $private = 0;
         
