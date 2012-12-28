@@ -2,10 +2,12 @@
 
 ## Migrate all posts from WordPress to Tumblr
 
-Does what it should. However, some things are still messy:
+Post content, title, date and slug are preserved. Tags and categories are not (yet).
 
-* Tags are not preserved
-* Categories are not preserved
+_Please note_
+
+* I forked WordPress2Tumblr to fit my needs. If you are trying this code, _use it at your own risk_!
+* I have no idea of using tumblr's api. This is learning in progress. You are warned!
 
 ## How to run
 
